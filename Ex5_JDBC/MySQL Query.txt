@@ -1,0 +1,7 @@
+CREATE TABLE `member` (
+  `uname` varchar(45) NOT NULL,
+  `password` varchar(45) DEFAULT NULL,
+  `email` varchar(45) DEFAULT NULL,
+  `phone` varchar(45) DEFAULT NULL,
+  PRIMARY KEY (`uname`)
+);

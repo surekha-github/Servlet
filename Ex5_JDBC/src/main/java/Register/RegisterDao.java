@@ -35,6 +35,7 @@ public class RegisterDao {
 		Connection con = getConnection();
 		String sql = "insert into member values(?,?,?,?)";
 		String result="Data Entered Successfully";
+		
 		try {
 			PreparedStatement ps = con.prepareStatement(sql);
 			ps.setString(1, member.getUname());
